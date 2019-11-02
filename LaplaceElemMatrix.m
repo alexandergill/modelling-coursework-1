@@ -1,6 +1,7 @@
 function [diffusionMatrix] = LaplaceElemMatrix(D,eID,msh)
 %LaplaceMatrix Generates local element matrix for the diffusion operator
-%   Returns a 2x2 matrix TODO:
+%   Returns a 2x2 matrix for the diffusion term of the diffusion-reaction
+%   equation
 
     % verify that element eID is in the mesh
     if eID > msh.ne
@@ -14,7 +15,7 @@ function [diffusionMatrix] = LaplaceElemMatrix(D,eID,msh)
     % create empty matrix
     diffusionMatrix = zeros(2);
     
-    % fill empty matrix
+    %% fill empty matrix
     
     % m is the row index
     for m = 0:1
@@ -31,7 +32,7 @@ function [diffusionMatrix] = LaplaceElemMatrix(D,eID,msh)
             i = m+1;
             j = n+1;
             
-            % shove it in the matrix
+            % put element in the matrix
             diffusionMatrix(i,j) = element;
         end
     end
