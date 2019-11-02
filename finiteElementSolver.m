@@ -71,4 +71,3 @@ function cValues = finiteElementSolver(mesh, D, lambda, f, dirichletBCs, neumann
     %% calculate c vector using c = M^-1 f
     cValues = globalMatrix \ globalSrcVector;
 end
-
