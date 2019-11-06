@@ -1,6 +1,5 @@
 function cValues = finiteElementSolver(mesh, D, lambda, f, dirichletBCs, neumannBCs)
-%finiteElementSolver Summary of this function goes here
-%   Detailed explanation goes here
+%finiteElementSolver Solves a 1D finite-element problem
 
     %% initialise global matrix and source vector
     globalMatrix     = zeros(mesh.ngn);
