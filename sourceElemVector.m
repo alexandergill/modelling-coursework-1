@@ -1,4 +1,6 @@
 function sourceVector = sourceElemVector(f, eID, msh)
+%sourceVector Returns a vector representing the source term for element
+%'eID' in mesh 'msh' given source coefficient 'f'
 
     % verify that element eID is in the mesh
     if eID > msh.ne

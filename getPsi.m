@@ -1,6 +1,5 @@
 function [psi] = getPsi(n)
-%GETPSI Summary of this function goes here
-%   Detailed explanation goes here
+%GETPSI Returns the basis function psi_n where n = {0, 1}
     switch n
         case 0
             psi = @(xi) (1 - xi) / 2;

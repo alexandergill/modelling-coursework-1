@@ -1,5 +1,5 @@
 function reactionMatrix = reactionElemMatrix(lambda, eID, msh)
-%UNTITLED2 Generates reaction element matrix
+%REACTIONELEMMATRIX Generates reaction element matrix
 %   Generates the reaction element matrix for element 'eID' of mesh 'msh'
 %   given a reaction coefficient 'lambda'
 
