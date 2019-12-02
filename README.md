@@ -1,0 +1,5 @@
+# Static MATLAB-Based Finite-Element Modelling Coursework Submission
+
+I got 81% on this project. Here's the feedback I got:
+
+> Part 1: A,b) correct answer and unit test. c) (i) correct graphs produced with clear explanation of the procedure. (ii) Thorough explanation of why the plot changes when the specific Neumann boundary condition was set. (iii) Clearly used a range of meshes and showed that this decreases the error. Part 2: a) Neat diagrams produced with clear explanation of the effect of different parameters. A comparison of the gradient (plot) could have provided further insight. (ii) Identified that the stiffness will vary. Further discussing this through some simple calculations and sketches and/or plots could have supported the explanation. (iii) Correctly showed the convergence of the results. b) correct derivation and results supported with good explanation of why the results change the way they do. Do you think you could have plotted a few more examples to support your conclusion? General comments: Neat report with clear discussions. Clear code with good use of functions, appropriate commenting and loops
